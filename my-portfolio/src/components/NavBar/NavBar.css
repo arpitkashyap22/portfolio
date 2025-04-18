@@ -1,0 +1,85 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #282c34;
+    color: white;
+}
+
+.navbar-logo {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-socials {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.navbar-links>li {
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.navbar-links>li:hover{
+    background-color: #3f444f;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.6);
+    transition: all 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.github>a>svg, .twitter>a>svg{
+    -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+            filter: invert(100%);
+  }
+
+/* .linkedin>a>svg {
+    color: #0a66c2;
+  } */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .navbar-socials {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-logo {
+        font-size: 0.9rem;
+    }
+
+    .navbar-links {
+        gap: 0.5rem;
+    }
+
+    .navbar-socials {
+        gap: 0.5rem;
+    }
+}
