@@ -12,6 +12,9 @@ const Home: React.FC = () => {
                     <a href="#contact" className="btn-secondary">Get in Touch</a>
                 </div>
             </div>
+            <div className='landing-image'>
+                <img src="profile-pic.jpg" alt="Arpit Kashyap" className="profile-pic" />
+            </div>
         </div>
     );
 };
