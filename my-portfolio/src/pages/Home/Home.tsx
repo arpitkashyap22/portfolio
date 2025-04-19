@@ -13,7 +13,7 @@ const Home: React.FC = () => {
                 </div>
             </div>
             <div className='landing-image'>
-                <img src="profile-pic.jpg" alt="Arpit Kashyap" className="profile-pic" />
+                <img src="/Arpit01.png" alt="Arpit Kashyap" className="profile-pic"  />
             </div>
         </div>
     );

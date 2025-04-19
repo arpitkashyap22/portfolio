@@ -5,11 +5,13 @@
     padding: 0.5rem;
     background-color: #282c34;
     color: white;
+    position: static;
+    top:0%;
 }
 
 .navbar-logo {
-    font-size: 1rem;
-    font-weight: bold;
+    margin-left: 25px;
+    padding: auto;
 }
 
 .navbar-links {
@@ -42,7 +44,9 @@ a {
     color: inherit;
 }
 
-.github>a>svg, .twitter>a>svg{
+
+
+.github>a>svg{
     -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
             filter: invert(100%);
   }
